@@ -1,0 +1,59 @@
+<%-- 
+    Document   : mystyle
+    Created on : Oct 12, 2012, 5:34:41 PM
+    Author     : Neha
+--%>
+
+@CHARSET "ISO-8859-1";
+	.left
+	{
+        float: left;
+        margin-left: 320px;
+		font-size:20px;
+	}
+
+	.center
+	{
+    	float: left;
+        margin-left: 410px;
+		font-size:20px;
+	}
+	root 
+	{ 
+    display: block;
+	}
+	
+	body
+	{
+		background-image:url('images/g.jpg');
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:cover%;
+		margin-top: 15px;
+	}
+	
+	a:link    {color:red;}
+	
+	a:visited {color:silver;}
+	
+	a:hover   {color:purple;}
+	
+	a:active  {color:yellow;}
+	
+	h1,h2,h3,h4
+	{
+		color:black;
+	}
+	td,tr
+	{
+		text-align:left;
+	}
+    
+    #imag
+    {
+		position:absolute;
+		left:650px;
+		z-index:-1;
+		height:500;
+		width:390;
+	}
